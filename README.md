@@ -4,7 +4,7 @@ This is a proxy to allow users to access data from a N-Able N-Central Installati
 
 # How to install #
 
-Download the script from https://github.com/svenboll/AzNcentralProxy
+Download bicep template from https://github.com/svenboll/AzureDeployments
 
 Fill in your information:
 
