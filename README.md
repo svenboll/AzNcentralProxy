@@ -4,7 +4,9 @@ This is a proxy to allow users to access data from a N-Able N-Central Installati
 
 # How to install #
 
-Download bicep template from https://github.com/svenboll/AzureDeployments
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fsvenboll%2FAzureDeployments%2Frefs%2Fheads%2Fmain%2FARM-Templates%2FAzNcentralProxy.json)
+
+Click on "Deploy to Azure" or download the template from https://github.com/svenboll/AzureDeployments
 
 Fill in your information:
 
