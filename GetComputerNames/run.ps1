@@ -44,8 +44,8 @@ Catch {
     exit
 }
 
-# Set up the "Customers" array, then populate
-$Computernames = $DeviceList.Items | Where-Object { $_.key -eq "device.longname" } | Select-Object Value
+# Filter the items, then populate
+$Computernames = $DeviceList.Items | Where-Object { $_.key -eq "device.discoveredname" } | Select-Object value
 $Output = $Computernames.value
 
 # Associate values to output bindings by calling 'Push-OutputBinding'.
