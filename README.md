@@ -21,7 +21,7 @@ The available Functions should now be listed, click on one name, then on "Get Fu
 
 ## GetComputerNames ##
 
-This function gets a list of all Computernames registered with the specified Customer ID.
+This function gets a list of all Computernames (filtered to only Windows Devices) registered with the specified Customer ID.
 
 With the function URL you can use PowerShell to retrieve the list of Computernames easily:
 
