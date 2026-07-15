@@ -22,7 +22,7 @@ try {
         $deviceheader = @{} 
         $deviceheader.Add("accept", "application/json")
         $deviceheader.Add("authorization", "Bearer $($authresponse.tokens.access.token)")
-        $deviceresponse = Invoke-RestMethod -Uri "https://$($serverHost)/api/devices?select=customerid%3D%3D$($SpecifiedCustomerID)" -Method GET -Headers $deviceheader    
+        $deviceresponse = Invoke-RestMethod -Uri "https://$($serverHost)/api/devices?pageSize=-1&select=customerid%3D%3D$($SpecifiedCustomerID)%2Csiteid%3D%3D$($SpecifiedCustomerID)" -Method GET -Headers $deviceheader
     }
     catch {
         $script:outerror = $_.Exception
